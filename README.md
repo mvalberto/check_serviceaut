@@ -22,7 +22,7 @@ define service{
 
 3.- Put check_service.ps1 in C:\Program Files\NSClient++\scripts
 
-4.- Edit nsclient.ini in you Host and add the followin lines
+4.- Edit nsclient.ini in your Host and add the following lines
 
 [/settings/external scripts/wrapped scripts]
 check_serviceaut = check_service.ps1  $ARG1$ 
