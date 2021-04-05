@@ -34,7 +34,7 @@ if ($serviceStatus -eq "Running") {
 
 else {
    
-    echo "Servicio $serviceName $serviceStatus, intentando arranque automatico"
+    echo "Servicio $serviceName $serviceStatus, lanzando arranque automatizado..."
     Start-Service -Name $serviceName
     exit $STATE_CRITICAL
      
