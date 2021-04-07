@@ -5,7 +5,7 @@ Plugin for nagios to check service status and autostart if service is stopped
 
 1.- Define command in /usr/local/nagios/etc/objects/commands.cfg
 
-define command{
+define command{ <br/>
 	command_name	check_serviceaut
 	command_line	$USER1$/check_nrpe -H $HOSTADDRESS$ -t 30 -p 5666 -c check_serviceaut $ARG1$ 
 }
