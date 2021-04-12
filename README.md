@@ -16,7 +16,7 @@ define service{<br/>
 	use						        generic-service<br/>
 	host_name				      YOUR_HOST<br/>
 	service_description		WinRM Service<br/>
-	check_command			    check_serviceaut! -a servicename <br/>
+	check_command			    check_serviceaut! -a WinRM <br/>
 	
 }
 
